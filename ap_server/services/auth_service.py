@@ -12,7 +12,7 @@ def forget(request, user_id: str):
         }
 
     try:
-        # 建立連接
+        #建立連接
         conn = MySQLAccess.get_connection()
         cursor = conn.cursor()
 
